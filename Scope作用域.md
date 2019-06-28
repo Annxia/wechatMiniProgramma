@@ -54,9 +54,32 @@
     console.log("test外部:"+num);
 ```
 
+下面这个例子：js中的`var`变量只有全局作用域和函数作用域两种。所以这个i在for循环中被声明，作用域是全局的。
+```JavaScript
+    var name = '程序员成长指北';
+    for(var i=0; i<5; i++){
+        console.log(i)
+    }
+    console.log('{}外部:'+i);
+    // 0 1 2 3 4  {}外部:5
 
+```  
 
-##### 3.2 块级作用域
+##### 3.2 变量提升
+
+```JavaScript
+    var tmp = new Date();
+    function f() {
+        console.log(tmp);
+        if(false) {
+         var tmp='hello';
+    }
+}
+
+```
+这道题的正确答案居然是`undefined`。
+
+##### 3.3 块级作用域
 
 >  ES6新增了`let`和`const`命令，可以用来创建块级作用域变量，使用`let`命令声明的变量只在`let`命令所在 **代码块**内有效。  
 
