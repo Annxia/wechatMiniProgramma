@@ -1,0 +1,91 @@
+.top-box{
+	height: 100px;
+	width: auto;
+	background: #fbfbfb;
+	border-bottom: 2px solid lightgray;
+}
+.fl{
+	margin-left: 20px;
+}
+.fr{
+	margin-right: 20px;
+}
+.header{
+	display: flex;
+	justify-content: space-between;
+	max-width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.bottom{
+	display: flex;
+	justify-content: flex-end;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.logo{
+	width: 180px;
+	height: 40px;
+	margin-top: 20px;
+}
+.title{
+	margin-top: 30px;
+	font-size: 20px;
+	color: gray;
+	text-spacing: 2px;
+}
+.user .user-icon{
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	margin-top: 20px;
+}
+.tab-item{
+	margin-left: 20px;
+}
+.tab-item:hover{
+	color: #808080;
+	
+}
+.content{
+	max-width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.tabs{
+	margin-top: 10px;
+	height:2.5em;
+	width:auto;
+	border-bottom: 1px solid #f48a20;
+}
+
+.tabs label{
+	height: 2.5em;
+	width: 100px;
+	background-color: #F48A20;
+	cursor: pointer;
+	display: block;
+	float: left;
+	line-height: 50px;	
+	text-align: center;
+	color: #fff;
+}
+.action{
+	margin-top: 10px;
+}
+.action div{
+	display: inline;
+	padding: 10px;
+	cursor: pointer;
+}
+.icon{
+	height: 20px;
+	width: 20px;
+}
+.breadcrumb{
+	color: #F48A20;
+	font-size: 14px;
+	line-height: 20px;
+	list-style: none;
+}
